@@ -515,3 +515,12 @@ embed[type="application/pdf"] {
   font-weight: 500;
   background-color: transparent;
 }
+
+.search-input {
+  border: 1px solid #313131;
+}
+
+.single-suggestion {
+  border: 1px solid #313131;
+  border-radius: 1rem;
+}

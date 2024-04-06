@@ -549,7 +549,9 @@
                                 class="grid w-full grid-flow-row grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-2"
                               >
                                 <div class="flex flex-col gap-2">
-                                  <span style="opacity: 1; transform: none"
+                                  <span
+                                    class="single-suggestion"
+                                    style="opacity: 1; transform: none"
                                     ><button
                                       class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
                                       as="button"
@@ -606,7 +608,10 @@
                                       </div>
                                     </button>
                                   </span>
-                                  <span style="opacity: 1; transform: none">
+                                  <span
+                                    class="single-suggestion"
+                                    style="opacity: 1; transform: none"
+                                  >
                                     <button
                                       class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
                                       as="button"
@@ -663,7 +668,10 @@
                                   </span>
                                 </div>
                                 <div class="flex flex-col gap-2">
-                                  <span style="opacity: 1; transform: none">
+                                  <span
+                                    class="single-suggestion"
+                                    style="opacity: 1; transform: none"
+                                  >
                                     <button
                                       class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
                                       as="button"
@@ -719,7 +727,10 @@
                                       </div>
                                     </button>
                                   </span>
-                                  <span style="opacity: 1; transform: none">
+                                  <span
+                                    class="single-suggestion"
+                                    style="opacity: 1; transform: none"
+                                  >
                                     <button
                                       class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
                                       as="button"
@@ -790,7 +801,7 @@
                   <!-- Input Start -->
                   <div class="flex w-full items-center">
                     <div
-                      class="overflow-hidden [&amp;:has(textarea:focus)]:border-token-border-xheavy [&amp;:has(textarea:focus)]:shadow-[0_2px_6px_rgba(0,0,0,.05)] flex flex-col w-full flex-grow relative border dark:text-white rounded-2xl bg-token-main-surface-primary border-token-border-medium"
+                      class="search-input overflow-hidden flex flex-col w-full flex-grow relative dark:text-white rounded-2xl bg-token-main-surface-primary"
                     >
                       <lt-mirror
                         contenteditable="false"
