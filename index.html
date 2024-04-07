@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChatGPT</title>
     <link rel="stylesheet" href="./style/main.css" media="screen" />
+    <link rel="stylesheet" href="./style/responsive.css" media="screen" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="antialiased">
@@ -38,7 +39,7 @@
                   </div>
                 </div>
                 <div class="new-conversation-btn-link-text">ChatGPT</div>
-                <div class="flex items-center">
+                <div class="new-conversation-btn-link-pencile-icon">
                   <button>
                     <svg
                       width="24"
@@ -64,118 +65,20 @@
             <!--  NEW CONVERSATION BUTTON END-->
 
             <!-- GPTs START -->
-            <div>
-              <div
-                class="my-2 ml-2 h-px w-7 bg-token-sidebar-surface-tertiary"
-              ></div>
-              <!-- DALL-E Start -->
-              <div class="pb-0.5 last:pb-0" tabindex="0">
-                <a
-                  class="group flex h-10 items-center gap-2 rounded-lg bg-token-sidebar-surface-primary px-2 font-medium hover:bg-token-sidebar-surface-secondary"
-                  href="/g/g-2fkFE8rbu-dall-e"
-                  ><div class="h-7 w-7 flex-shrink-0">
-                    <div
-                      class="gizmo-shadow-stroke overflow-hidden rounded-full"
-                    >
-                      <img
-                        src="https://files.oaiusercontent.com/file-SxYQO0Fq1ZkPagkFtg67DRVb?se=2123-10-12T23%3A57%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dagent_3.webp&amp;sig=pLlQh8oUktqQzhM09SDDxn5aakqFuM2FAPptuA0mbqc%3D"
-                        class="h-full w-full bg-token-main-surface-secondary"
-                        alt="GPT"
-                        width="80"
-                        height="80"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    class="grow overflow-hidden text-ellipsis whitespace-nowrap text-sm text-token-text-primary"
-                  >
-                    DALL·E
-                  </div>
-                  <div class="flex gap-3">
-                    <span class="flex items-center" data-state="closed"
-                      ><button
-                        class="invisible text-token-text-tertiary hover:text-token-text-secondary group-hover:visible"
-                      >
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="icon-md"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M16.7929 2.79289C18.0118 1.57394 19.9882 1.57394 21.2071 2.79289C22.4261 4.01184 22.4261 5.98815 21.2071 7.20711L12.7071 15.7071C12.5196 15.8946 12.2652 16 12 16H9C8.44772 16 8 15.5523 8 15V12C8 11.7348 8.10536 11.4804 8.29289 11.2929L16.7929 2.79289ZM19.7929 4.20711C19.355 3.7692 18.645 3.7692 18.2071 4.2071L10 12.4142V14H11.5858L19.7929 5.79289C20.2308 5.35499 20.2308 4.64501 19.7929 4.20711ZM6 5C5.44772 5 5 5.44771 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V14C19 13.4477 19.4477 13 20 13C20.5523 13 21 13.4477 21 14V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34314 4.34315 3 6 3H10C10.5523 3 11 3.44771 11 4C11 4.55228 10.5523 5 10 5H6Z"
-                            fill="currentColor"
-                            style="--darkreader-inline-fill: currentColor"
-                            data-darkreader-inline-fill=""
-                          ></path>
-                        </svg></button
-                    ></span></div
-                ></a>
-              </div>
-              <!-- DALL-E END -->
-
-              <!-- Logo Creator Strat -->
-              <div class="pb-0.5 last:pb-0" tabindex="0">
-                <a
-                  class="group flex h-10 items-center gap-2 rounded-lg bg-token-sidebar-surface-primary px-2 font-medium hover:bg-token-sidebar-surface-secondary"
-                  href="/g/g-gFt1ghYJl-logo-creator"
-                  ><div class="h-7 w-7 flex-shrink-0">
-                    <div
-                      class="gizmo-shadow-stroke overflow-hidden rounded-full"
-                    >
-                      <img
-                        src="https://files.oaiusercontent.com/file-dqdS1PEGuFcQ1GliVE2qBchP?se=2123-10-17T09%3A45%3A51Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D_7c6e5ee7-e05e-4685-bd8a-c3d81188ceb8.png&amp;sig=0b5iWxPIKs//MVBoEqZ93ADvuWW%2BFlzsma%2BVtkKXYls%3D"
-                        class="h-full w-full bg-token-main-surface-secondary"
-                        alt="GPT"
-                        width="80"
-                        height="80"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    class="grow overflow-hidden text-ellipsis whitespace-nowrap text-sm text-token-text-primary"
-                  >
-                    Logo Creator
-                  </div>
-                  <div class="flex gap-3">
-                    <span class="flex items-center" data-state="closed"
-                      ><button
-                        class="invisible text-token-text-tertiary hover:text-token-text-secondary group-hover:visible"
-                      >
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="icon-md"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M16.7929 2.79289C18.0118 1.57394 19.9882 1.57394 21.2071 2.79289C22.4261 4.01184 22.4261 5.98815 21.2071 7.20711L12.7071 15.7071C12.5196 15.8946 12.2652 16 12 16H9C8.44772 16 8 15.5523 8 15V12C8 11.7348 8.10536 11.4804 8.29289 11.2929L16.7929 2.79289ZM19.7929 4.20711C19.355 3.7692 18.645 3.7692 18.2071 4.2071L10 12.4142V14H11.5858L19.7929 5.79289C20.2308 5.35499 20.2308 4.64501 19.7929 4.20711ZM6 5C5.44772 5 5 5.44771 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V14C19 13.4477 19.4477 13 20 13C20.5523 13 21 13.4477 21 14V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34314 4.34315 3 6 3H10C10.5523 3 11 3.44771 11 4C11 4.55228 10.5523 5 10 5H6Z"
-                            fill="currentColor"
-                            style="--darkreader-inline-fill: currentColor"
-                            data-darkreader-inline-fill=""
-                          ></path>
-                        </svg></button
-                    ></span></div
-                ></a>
-              </div>
-              <!-- Logo Creator End -->
-
-              <!-- Explore GPTs Start -->
-              <div tabindex="0">
-                <a
-                  class="flex h-10 w-full items-center gap-2 rounded-lg px-2 font-medium text-token-text-primary hover:bg-token-sidebar-surface-secondary"
-                  href="/gpts"
-                  ><div
-                    class="flex h-7 w-7 items-center justify-center text-token-text-secondary"
-                  >
+            <!-- DALL-E START -->
+            <div class="dall-e" tabindex="0">
+              <a class="chat-link group" href="/">
+                <div class="chat-link-img">
+                  <img
+                    src="https://files.oaiusercontent.com/file-SxYQO0Fq1ZkPagkFtg67DRVb?se=2123-10-12T23%3A57%3A32Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3Dagent_3.webp&amp;sig=pLlQh8oUktqQzhM09SDDxn5aakqFuM2FAPptuA0mbqc%3D"
+                    alt="GPT"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <div class="chat-link-text">DALL·E</div>
+                <div class="dall-e-new-icon">
+                  <button class="invisible group-hover:visible">
                     <svg
                       width="24"
                       height="24"
@@ -184,156 +87,1078 @@
                       xmlns="http://www.w3.org/2000/svg"
                       class="icon-md"
                     >
-                      <circle
-                        cx="6.75"
-                        cy="6.75"
-                        r="3.25"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        style="--darkreader-inline-stroke: currentColor"
-                        data-darkreader-inline-stroke=""
-                      ></circle>
-                      <circle
-                        cx="17.25"
-                        cy="6.75"
-                        r="3.25"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        style="--darkreader-inline-stroke: currentColor"
-                        data-darkreader-inline-stroke=""
-                      ></circle>
-                      <circle
-                        cx="6.75"
-                        cy="17.25"
-                        r="3.25"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        style="--darkreader-inline-stroke: currentColor"
-                        data-darkreader-inline-stroke=""
-                      ></circle>
-                      <circle
-                        cx="17.25"
-                        cy="17.25"
-                        r="3.25"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        style="--darkreader-inline-stroke: currentColor"
-                        data-darkreader-inline-stroke=""
-                      ></circle>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16.7929 2.79289C18.0118 1.57394 19.9882 1.57394 21.2071 2.79289C22.4261 4.01184 22.4261 5.98815 21.2071 7.20711L12.7071 15.7071C12.5196 15.8946 12.2652 16 12 16H9C8.44772 16 8 15.5523 8 15V12C8 11.7348 8.10536 11.4804 8.29289 11.2929L16.7929 2.79289ZM19.7929 4.20711C19.355 3.7692 18.645 3.7692 18.2071 4.2071L10 12.4142V14H11.5858L19.7929 5.79289C20.2308 5.35499 20.2308 4.64501 19.7929 4.20711ZM6 5C5.44772 5 5 5.44771 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V14C19 13.4477 19.4477 13 20 13C20.5523 13 21 13.4477 21 14V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34314 4.34315 3 6 3H10C10.5523 3 11 3.44771 11 4C11 4.55228 10.5523 5 10 5H6Z"
+                        fill="currentColor"
+                        style="--darkreader-inline-fill: currentColor"
+                        data-darkreader-inline-fill=""
+                      ></path>
                     </svg>
-                  </div>
-                  <span class="text-sm">Explore GPTs</span></a
-                >
-              </div>
-              <!-- Explore GPTs End -->
+                  </button>
+                </div>
+              </a>
             </div>
+            <!-- DALL-E END -->
+
+            <!-- LOGO CREATOR START -->
+            <div class="logo-creator" tabindex="0">
+              <a class="chat-link group" href="/">
+                <div class="chat-link-img">
+                  <img
+                    src="https://files.oaiusercontent.com/file-dqdS1PEGuFcQ1GliVE2qBchP?se=2123-10-17T09%3A45%3A51Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D_7c6e5ee7-e05e-4685-bd8a-c3d81188ceb8.png&amp;sig=0b5iWxPIKs//MVBoEqZ93ADvuWW%2BFlzsma%2BVtkKXYls%3D"
+                    class="h-full w-full bg-token-main-surface-secondary"
+                    alt="GPT"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <div class="chat-link-text">Logo Creator</div>
+                <div class="logo-creator-new-icon">
+                  <button class="invisible group-hover:visible">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon-md"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16.7929 2.79289C18.0118 1.57394 19.9882 1.57394 21.2071 2.79289C22.4261 4.01184 22.4261 5.98815 21.2071 7.20711L12.7071 15.7071C12.5196 15.8946 12.2652 16 12 16H9C8.44772 16 8 15.5523 8 15V12C8 11.7348 8.10536 11.4804 8.29289 11.2929L16.7929 2.79289ZM19.7929 4.20711C19.355 3.7692 18.645 3.7692 18.2071 4.2071L10 12.4142V14H11.5858L19.7929 5.79289C20.2308 5.35499 20.2308 4.64501 19.7929 4.20711ZM6 5C5.44772 5 5 5.44771 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V14C19 13.4477 19.4477 13 20 13C20.5523 13 21 13.4477 21 14V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6C3 4.34314 4.34315 3 6 3H10C10.5523 3 11 3.44771 11 4C11 4.55228 10.5523 5 10 5H6Z"
+                        fill="currentColor"
+                        style="--darkreader-inline-fill: currentColor"
+                        data-darkreader-inline-fill=""
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </a>
+            </div>
+            <!-- LOGO CREATOR END -->
+
+            <!-- EXPLORE GPTs START -->
+            <div class="gtps" tabindex="0">
+              <a class="chat-link" href="/gpts"
+                ><div class="chat-link-img">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon-md"
+                  >
+                    <circle
+                      cx="6.75"
+                      cy="6.75"
+                      r="3.25"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      style="--darkreader-inline-stroke: currentColor"
+                      data-darkreader-inline-stroke=""
+                    ></circle>
+                    <circle
+                      cx="17.25"
+                      cy="6.75"
+                      r="3.25"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      style="--darkreader-inline-stroke: currentColor"
+                      data-darkreader-inline-stroke=""
+                    ></circle>
+                    <circle
+                      cx="6.75"
+                      cy="17.25"
+                      r="3.25"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      style="--darkreader-inline-stroke: currentColor"
+                      data-darkreader-inline-stroke=""
+                    ></circle>
+                    <circle
+                      cx="17.25"
+                      cy="17.25"
+                      r="3.25"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      style="--darkreader-inline-stroke: currentColor"
+                      data-darkreader-inline-stroke=""
+                    ></circle>
+                  </svg>
+                </div>
+                <span class="chat-link-text">Explore GPTs</span>
+              </a>
+            </div>
+            <!-- EXPLORE GPTs END -->
             <!-- GPTs END -->
 
-            <!-- Conversations Start -->
-            <div
-              class="flex flex-col gap-2 pb-2 text-token-text-primary text-sm"
-            >
-              <div>
-                <span>
-                  <!-- Today's conversations start-->
-                  <div class="relative mt-5" style="height: auto; opacity: 1">
-                    <div style="transform: none; transform-origin: 50% 50% 0px">
-                      <h3
-                        class="h-9 pb-2 pt-3 px-2 text-xs font-medium text-ellipsis overflow-hidden break-all text-token-text-tertiary"
+            <!-- CHATS START -->
+            <div class="chats-container">
+              <!-- TODAY CHATS START-->
+              <div class="chats-groub today">
+                <h3 class="chats-title">Today</h3>
+                <ol>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
                       >
-                        Today
-                      </h3>
-                    </div>
-                    <ol>
-                      <li
-                        class="relative z-[15]"
-                        style="
-                          opacity: 1;
-                          height: auto;
-                          transform: none;
-                          transform-origin: 50% 50% 0px;
-                        "
-                      >
+                        Hey, hwzit goin!
                         <div
-                          class="group relative rounded-lg active:opacity-90 hover:bg-token-sidebar-surface-secondary"
-                        >
-                          <a
-                            href="/c/5fe91c16-b857-4558-b3b9-cb8c6f4ed216"
-                            class="flex items-center gap-2 p-2"
-                            ><div
-                              class="relative grow overflow-hidden whitespace-nowrap"
-                            >
-                              Hey, hwzit goin!
-                              <div
-                                class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
-                              ></div></div
-                          ></a>
-                          <div
-                            class="absolute bottom-0 right-0 top-0 items-center gap-1.5 pr-2 hidden group-hover:flex"
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
                           >
-                            <button
-                              class="flex items-center justify-center text-token-text-primary transition hover:text-token-text-secondary radix-state-open:text-token-text-secondary"
-                              type="button"
-                              id="radix-:r14:"
-                              aria-haspopup="menu"
-                              aria-expanded="false"
-                              data-state="closed"
-                            >
-                              <span class="" data-state="closed"
-                                ><svg
-                                  width="24"
-                                  height="24"
-                                  viewBox="0 0 24 24"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  class="icon-md"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
-                                    d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
-                                    fill="currentColor"
-                                    style="
-                                      --darkreader-inline-fill: currentColor;
-                                    "
-                                    data-darkreader-inline-fill=""
-                                  ></path>
-                                </svg>
-                              </span></button
-                            ><span class="" data-state="closed"
-                              ><button
-                                class="flex items-center justify-center text-token-text-primary transition hover:text-token-text-secondary radix-state-open:text-token-text-secondary"
-                              >
-                                <svg
-                                  width="18"
-                                  height="18"
-                                  viewBox="0 0 18 18"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  class="icon-md"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
-                                    d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
-                                    fill="currentColor"
-                                    style="
-                                      --darkreader-inline-fill: currentColor;
-                                    "
-                                    data-darkreader-inline-fill=""
-                                  ></path>
-                                </svg></button
-                            ></span>
-                          </div>
-                        </div>
-                      </li>
-                    </ol>
-                  </div>
-                  <!-- Today's conversations end-->
-                </span>
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hey, hwzit goin!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hey, hwzit goin!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hey, hwzit goin!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hey, hwzit goin!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hey, hwzit goin!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hey, hwzit goin!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hey, hwzit goin!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                </ol>
               </div>
+              <!-- TODAY CHATS END-->
+
+              <!-- LASTDAY CHATS START-->
+              <div class="chats-groub last-day">
+                <h3 class="chats-title">Last week</h3>
+                <ol>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="chat group">
+                    <a href="/" class="chat-link"
+                      ><div
+                        class="relative grow overflow-hidden whitespace-nowrap"
+                      >
+                        Hello world!
+                        <div
+                          class="absolute bottom-0 right-0 top-0 bg-gradient-to-l to-transparent from-token-sidebar-surface-primary w-8 from-token-sidebar-surface-primary from-0% group-hover:w-20 group-hover:from-token-sidebar-surface-secondary group-hover:from-60%"
+                        ></div>
+                      </div>
+                    </a>
+                    <div class="icons-container">
+                      <button class="more-btn" type="button">
+                        <div class="more-popup">More</div>
+                        <span class="more-icon">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3 12C3 10.8954 3.89543 10 5 10C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14C3.89543 14 3 13.1046 3 12ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM17 12C17 10.8954 17.8954 10 19 10C20.1046 10 21 10.8954 21 12C21 13.1046 20.1046 14 19 14C17.8954 14 17 13.1046 17 12Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <button class="archive-btn">
+                        <div class="archive-popup">Archive</div>
+
+                        <span class="archive-icon">
+                          <svg
+                            width="18"
+                            height="18"
+                            viewBox="0 0 18 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon-md"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.62188 3.07918C3.87597 2.571 4.39537 2.25 4.96353 2.25H13.0365C13.6046 2.25 14.124 2.571 14.3781 3.07918L15.75 5.82295V13.5C15.75 14.7426 14.7426 15.75 13.5 15.75H4.5C3.25736 15.75 2.25 14.7426 2.25 13.5V5.82295L3.62188 3.07918ZM13.0365 3.75H4.96353L4.21353 5.25H13.7865L13.0365 3.75ZM14.25 6.75H3.75V13.5C3.75 13.9142 4.08579 14.25 4.5 14.25H13.5C13.9142 14.25 14.25 13.9142 14.25 13.5V6.75ZM6.75 9C6.75 8.58579 7.08579 8.25 7.5 8.25H10.5C10.9142 8.25 11.25 8.58579 11.25 9C11.25 9.41421 10.9142 9.75 10.5 9.75H7.5C7.08579 9.75 6.75 9.41421 6.75 9Z"
+                              fill="currentColor"
+                              style="--darkreader-inline-fill: currentColor"
+                              data-darkreader-inline-fill=""
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+              <!-- LASTDAY CHATS END-->
             </div>
-            <!-- Conversations End -->
+            <!-- CHATS END -->
           </div>
 
           <!-- Add team & user start -->
@@ -426,17 +1251,14 @@
       </div>
       <!-- SIDE MENU END -->
 
-      <div
-        class="relative flex h-full max-w-full flex-1 flex-col overflow-hidden"
-      >
-        <main
-          class="main relative h-full flex-1 overflow-auto transition-width"
-        >
-          <!-- Close Sidebar Btn Start -->
+      <div class="hero">
+        <main class="main">
+          <!-- CLOSE SIDEBAR BTN START -->
           <div class="close-sidebar-btn-container">
             <button id="toggleSidebarBtn">
               <span data-state="closed">
                 <div class="center-container">
+                  <div class="close-popup">Close sidebar</div>
                   <div class="icon-container">
                     <div class="line top-line"></div>
                     <div class="line bottom-line"></div>
@@ -445,473 +1267,175 @@
               </span>
             </button>
           </div>
+          <!-- CLOSE SIDEBAR BTN END -->
 
-          <!-- Close Sidebar Btn End -->
+          <div class="main-container">
+            <div class="suggestions-container">
+              <!-- GPT PLAN START -->
+              <div class="absolute-full-width">
+                <div class="new-chat-popup">New chat</div>
 
-          <div role="presentation" tabindex="0" class="flex h-full flex-col">
-            <div class="flex-1 overflow-hidden">
-              <div class="relative h-full">
-                <!-- GPT plane start -->
-                <div class="absolute-full-width">
-                  <div class="sticky-header">
-                    <div class="center-absolute"></div>
-                    <div class="flex-items-center">
-                      <div
-                        class="button-styling group"
-                        type="button"
-                        id="radix-:rfg:"
-                        aria-haspopup="menu"
-                        aria-expanded="false"
-                        data-state="closed"
-                      >
-                        <div>
-                          ChatGPT
-                          <span class="text-secondary">4</span>
-                        </div>
-                        <svg
-                          width="16"
-                          height="17"
-                          viewBox="0 0 16 17"
-                          fill="none"
-                          class="text-tertiary"
-                        >
-                          <path
-                            d="M11.3346 7.83203L8.00131 11.1654L4.66797 7.83203"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="flex-items-center pr-1"></div>
-                  </div>
-                </div>
-                <!-- GPT plane end -->
-                <!-- How can I help you Start -->
-                <div
-                  class="flex h-full flex-col items-center justify-center text-token-text-primary"
-                >
-                  <div class="relative">
-                    <div class="mb-3 h-12 w-12">
-                      <div
-                        class="gizmo-shadow-stroke relative flex h-full items-center justify-center rounded-full bg-white text-gray-950"
-                      >
-                        <svg
-                          width="41"
-                          height="41"
-                          viewBox="0 0 41 41"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-2/3 w-2/3"
-                          role="img"
-                        >
-                          <text x="-9999" y="-9999">ChatGPT</text>
-                          <path
-                            d="M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z"
-                            fill="currentColor"
-                            style="--darkreader-inline-fill: currentColor"
-                            data-darkreader-inline-fill=""
-                          ></path>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="mb-5 text-2xl font-medium">
-                    How can I help you today?
-                  </div>
-                </div>
-                <!-- How can I help you Start -->
-              </div>
-            </div>
-            <div
-              style="padding-left: 0px; padding-right: 0px"
-              class="w-full pt-2 md:pt-0 dark:border-white/20 md:border-transparent md:dark:border-transparent md:w-[calc(100%-.5rem)]"
-            >
-              <form
-                class="stretch mx-2 flex flex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
-              >
-                <div class="relative flex h-full flex-1 flex-col">
-                  <!-- Suggestions Start -->
-                  <div class="absolute bottom-full left-0 right-0">
-                    <div class="relative h-full w-full">
+                <div class="sticky-header">
+                  <div class="center-absolute"></div>
+                  <div class="flex-items-center">
+                    <div
+                      class="button-styling group"
+                      type="button"
+                      id="radix-:rfg:"
+                      aria-haspopup="menu"
+                      aria-expanded="false"
+                      data-state="closed"
+                    >
                       <div>
-                        <div
-                          class="h-full flex ml-1 md:w-full md:m-auto md:mb-4 gap-0 md:gap-2 justify-center"
-                        >
-                          <div class="grow">
-                            <div
-                              class="absolute bottom-full left-0 mb-4 flex w-full grow gap-2 px-1 pb-1 sm:px-2 sm:pb-0 md:static md:mb-0 md:max-w-none"
-                            >
-                              <!-- Suggestions Start -->
-                              <div
-                                class="grid w-full grid-flow-row grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-2"
-                              >
-                                <div class="flex flex-col gap-2">
-                                  <span
-                                    class="single-suggestion"
-                                    style="opacity: 1; transform: none"
-                                    ><button
-                                      class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
-                                      as="button"
-                                    >
-                                      <div
-                                        class="flex w-full gap-2 items-center justify-center"
-                                      >
-                                        <div
-                                          class="flex w-full items-center justify-between"
-                                        >
-                                          <div
-                                            class="flex flex-col overflow-hidden"
-                                          >
-                                            <div class="truncate">
-                                              Help me study
-                                            </div>
-                                            <div
-                                              class="truncate font-normal opacity-50"
-                                            >
-                                              vocabulary for a college entrance
-                                              exam
-                                            </div>
-                                          </div>
-                                          <div
-                                            class="absolute bottom-0 right-0 top-0 flex items-center rounded-xl bg-gradient-to-l from-token-main-surface-secondary pl-6 pr-4 text-token-text-secondary opacity-0 can-hover:group-hover:opacity-100"
-                                          >
-                                            <span class="" data-state="closed"
-                                              ><div
-                                                class="rounded-lg bg-token-main-surface-primary p-1 shadow-xxs dark:shadow-none"
-                                              >
-                                                <svg
-                                                  width="24"
-                                                  height="24"
-                                                  viewBox="0 0 24 24"
-                                                  fill="none"
-                                                  class="icon-sm text-token-text-primary"
-                                                >
-                                                  <path
-                                                    d="M7 11L12 6L17 11M12 18V7"
-                                                    stroke="currentColor"
-                                                    stroke-width="2"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    style="
-                                                      --darkreader-inline-stroke: currentColor;
-                                                    "
-                                                    data-darkreader-inline-stroke=""
-                                                  ></path>
-                                                </svg>
-                                              </div>
-                                            </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </button>
-                                  </span>
-                                  <span
-                                    class="single-suggestion"
-                                    style="opacity: 1; transform: none"
-                                  >
-                                    <button
-                                      class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
-                                      as="button"
-                                    >
-                                      <div
-                                        class="flex w-full gap-2 items-center justify-center"
-                                      >
-                                        <div
-                                          class="flex w-full items-center justify-between"
-                                        >
-                                          <div
-                                            class="flex flex-col overflow-hidden"
-                                          >
-                                            <div class="truncate">
-                                              Design a database schema
-                                            </div>
-                                            <div
-                                              class="truncate font-normal opacity-50"
-                                            >
-                                              for an online merch store
-                                            </div>
-                                          </div>
-                                          <div
-                                            class="absolute bottom-0 right-0 top-0 flex items-center rounded-xl bg-gradient-to-l from-token-main-surface-secondary pl-6 pr-4 text-token-text-secondary opacity-0 can-hover:group-hover:opacity-100"
-                                          >
-                                            <span class="" data-state="closed"
-                                              ><div
-                                                class="rounded-lg bg-token-main-surface-primary p-1 shadow-xxs dark:shadow-none"
-                                              >
-                                                <svg
-                                                  width="24"
-                                                  height="24"
-                                                  viewBox="0 0 24 24"
-                                                  fill="none"
-                                                  class="icon-sm text-token-text-primary"
-                                                >
-                                                  <path
-                                                    d="M7 11L12 6L17 11M12 18V7"
-                                                    stroke="currentColor"
-                                                    stroke-width="2"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    style="
-                                                      --darkreader-inline-stroke: currentColor;
-                                                    "
-                                                    data-darkreader-inline-stroke=""
-                                                  ></path>
-                                                </svg></div
-                                            ></span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </button>
-                                  </span>
+                        ChatGPT
+                        <span class="text-secondary">4</span>
+                      </div>
+                      <svg
+                        width="16"
+                        height="17"
+                        viewBox="0 0 16 17"
+                        fill="none"
+                        class="text-tertiary"
+                      >
+                        <path
+                          d="M11.3346 7.83203L8.00131 11.1654L4.66797 7.83203"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="flex-items-center pr-1"></div>
+                </div>
+              </div>
+              <!-- GPT PLAN END -->
+              <!--  HOW CAN I HELP YOU START -->
+              <div class="title-container">
+                <div class="title-img">
+                  <div>
+                    <div class="title-icon">
+                      <svg
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-2/3 w-2/3"
+                        role="img"
+                      >
+                        <text x="-9999" y="-9999">ChatGPT</text>
+                        <path
+                          d="M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z"
+                          fill="currentColor"
+                          style="--darkreader-inline-fill: currentColor"
+                          data-darkreader-inline-fill=""
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="title-text">How can I help you today?</div>
+              </div>
+              <!-- HOW CAN I HELP YOU END -->
+            </div>
+            <div class="suggestion-cards-container">
+              <form class="conversation-form">
+                <div class="form-container">
+                  <!-- SUGGESTIONS CARDS START -->
+                  <div class="suggestion-cards">
+                    <div class="cards">
+                      <div class="cards-container">
+                        <!-- CARDS START -->
+                        <div>
+                          <div class="two-cards">
+                            <!-- FIRST CARD START -->
+                            <span class="single-card">
+                              <button class="card-btn">
+                                <div>
+                                  <div class="card-text">
+                                    <div class="card-title">Help me study</div>
+                                    <div class="card-desc">
+                                      vocabulary for a college entrance exam
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="flex flex-col gap-2">
-                                  <span
-                                    class="single-suggestion"
-                                    style="opacity: 1; transform: none"
-                                  >
-                                    <button
-                                      class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
-                                      as="button"
-                                    >
-                                      <div
-                                        class="flex w-full gap-2 items-center justify-center"
-                                      >
-                                        <div
-                                          class="flex w-full items-center justify-between"
-                                        >
-                                          <div
-                                            class="flex flex-col overflow-hidden"
-                                          >
-                                            <div class="truncate">
-                                              Write a thank-you note
-                                            </div>
-                                            <div
-                                              class="truncate font-normal opacity-50"
-                                            >
-                                              to a guest speaker for my class
-                                            </div>
-                                          </div>
-                                          <div
-                                            class="absolute bottom-0 right-0 top-0 flex items-center rounded-xl bg-gradient-to-l from-token-main-surface-secondary pl-6 pr-4 text-token-text-secondary opacity-0 can-hover:group-hover:opacity-100"
-                                          >
-                                            <span class="" data-state="closed"
-                                              ><div
-                                                class="rounded-lg bg-token-main-surface-primary p-1 shadow-xxs dark:shadow-none"
-                                              >
-                                                <svg
-                                                  width="24"
-                                                  height="24"
-                                                  viewBox="0 0 24 24"
-                                                  fill="none"
-                                                  class="icon-sm text-token-text-primary"
-                                                >
-                                                  <path
-                                                    d="M7 11L12 6L17 11M12 18V7"
-                                                    stroke="currentColor"
-                                                    stroke-width="2"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    style="
-                                                      --darkreader-inline-stroke: currentColor;
-                                                    "
-                                                    data-darkreader-inline-stroke=""
-                                                  ></path>
-                                                </svg>
-                                              </div>
-                                            </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </button>
-                                  </span>
-                                  <span
-                                    class="single-suggestion"
-                                    style="opacity: 1; transform: none"
-                                  >
-                                    <button
-                                      class="btn relative btn-neutral group w-full whitespace-nowrap rounded-xl px-4 py-3 text-left text-token-text-primary md:whitespace-normal"
-                                      as="button"
-                                    >
-                                      <div
-                                        class="flex w-full gap-2 items-center justify-center"
-                                      >
-                                        <div
-                                          class="flex w-full items-center justify-between"
-                                        >
-                                          <div
-                                            class="flex flex-col overflow-hidden"
-                                          >
-                                            <div class="truncate">
-                                              Compare marketing strategies
-                                            </div>
-                                            <div
-                                              class="truncate font-normal opacity-50"
-                                            >
-                                              for sunglasses for Gen Z and
-                                              Millennials
-                                            </div>
-                                          </div>
-                                          <div
-                                            class="absolute bottom-0 right-0 top-0 flex items-center rounded-xl bg-gradient-to-l from-token-main-surface-secondary pl-6 pr-4 text-token-text-secondary opacity-0 can-hover:group-hover:opacity-100"
-                                          >
-                                            <span class="" data-state="closed"
-                                              ><div
-                                                class="rounded-lg bg-token-main-surface-primary p-1 shadow-xxs dark:shadow-none"
-                                              >
-                                                <svg
-                                                  width="24"
-                                                  height="24"
-                                                  viewBox="0 0 24 24"
-                                                  fill="none"
-                                                  class="icon-sm text-token-text-primary"
-                                                >
-                                                  <path
-                                                    d="M7 11L12 6L17 11M12 18V7"
-                                                    stroke="currentColor"
-                                                    stroke-width="2"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    style="
-                                                      --darkreader-inline-stroke: currentColor;
-                                                    "
-                                                    data-darkreader-inline-stroke=""
-                                                  ></path>
-                                                </svg>
-                                              </div>
-                                            </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </button>
-                                  </span>
+                              </button>
+                            </span>
+                            <!-- FIRST CARD END -->
+
+                            <!-- SECOND CARD START -->
+                            <span class="single-card">
+                              <button class="card-btn">
+                                <div>
+                                  <div class="card-text">
+                                    <div class="card-title">
+                                      Design a database schema
+                                    </div>
+                                    <div class="card-desc">
+                                      vocabulary for a college entrance exam
+                                    </div>
+                                  </div>
                                 </div>
-                              </div>
-                              <!-- Suggestions End -->
-                            </div>
+                              </button>
+                            </span>
+                            <!-- SECOND CARD END -->
+                          </div>
+                          <div class="two-cards">
+                            <!-- THIRD CARD START -->
+                            <span class="single-card">
+                              <button class="card-btn">
+                                <div>
+                                  <div class="card-text">
+                                    <div class="card-title">
+                                      Write a thank-you note
+                                    </div>
+                                    <div class="card-desc">
+                                      for sunglasses for Gen Z and Millennials
+                                    </div>
+                                  </div>
+                                </div>
+                              </button>
+                            </span>
+                            <!-- THIRD CARD END -->
+                            <!-- FOURTH CARD START -->
+                            <span class="single-card">
+                              <button class="card-btn">
+                                <div>
+                                  <div class="card-text">
+                                    <div class="card-title">
+                                      Compare marketing strategies
+                                    </div>
+                                    <div class="card-desc">
+                                      for sunglasses for Gen Z and Millennials
+                                    </div>
+                                  </div>
+                                </div>
+                              </button>
+                            </span>
+                            <!-- FOURTH CARD END -->
                           </div>
                         </div>
+                        <!-- CARDS END -->
                       </div>
                     </div>
                   </div>
-                  <!-- Suggestions End -->
+                  <!-- SUGGESTIONS CARDS END -->
 
                   <!-- Input Start -->
-                  <div class="flex w-full items-center">
-                    <div
-                      class="search-input overflow-hidden flex flex-col w-full flex-grow relative dark:text-white rounded-2xl bg-token-main-surface-primary"
-                    >
-                      <lt-mirror
-                        contenteditable="false"
-                        style="display: none"
-                        class="lt-mirror--grid-item"
-                        data-lt-linked="1"
-                        ><lt-highlighter
-                          contenteditable="false"
-                          style="display: none"
-                          ><lt-div
-                            spellcheck="false"
-                            class="lt-highlighter__wrapper"
-                            style="
-                              width: 635px !important;
-                              height: 52px !important;
-                              transform: none !important;
-                              transform-origin: 317.5px 26px 0px !important;
-                            "
-                            ><lt-div
-                              class="lt-highlighter__scroll-element"
-                              style="
-                                top: 0px !important;
-                                left: 0px !important;
-                                width: 635px !important;
-                                height: 52px !important;
-                              "
-                            ></lt-div></lt-div></lt-highlighter
-                        ><lt-div
-                          spellcheck="false"
-                          class="lt-mirror__wrapper notranslate"
-                          style="
-                            border: 0px solid rgb(76, 83, 86) !important;
-                            border-radius: 0px !important;
-                            direction: ltr !important;
-                            font: 16px / 24px Söhne, ui-sans-serif, system-ui,
-                              -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
-                              Noto Sans, sans-serif, Helvetica Neue, Arial,
-                              Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-                              Noto Color Emoji !important;
-                            font-synthesis: weight style small-caps position !important;
-                            hyphens: manual !important;
-                            letter-spacing: normal !important;
-                            line-break: auto !important;
-                            margin: 0px !important;
-                            padding: 14px 48px 14px 55px !important;
-                            text-align: start !important;
-                            text-decoration: rgb(232, 230, 227) !important;
-                            text-indent: 0px !important;
-                            text-rendering: optimizelegibility !important;
-                            text-transform: none !important;
-                            transform: none !important;
-                            transform-origin: 317.5px 26px 0px !important;
-                            unicode-bidi: normal !important;
-                            white-space: pre-wrap !important;
-                            word-spacing: 0px !important;
-                            overflow-wrap: break-word !important;
-                            writing-mode: horizontal-tb !important;
-                            width: 532px !important;
-                            height: 24px !important;
-                          "
-                          data-lt-scroll-top="0"
-                          data-lt-scroll-left="0"
-                          data-lt-scroll-top-scaled="0"
-                          data-lt-scroll-left-scaled="0"
-                          data-lt-scroll-top-scaled-and-zoomed="0"
-                          data-lt-scroll-left-scaled-and-zoomed="0"
-                          data-darkreader-inline-border-top=""
-                          data-darkreader-inline-border-right=""
-                          data-darkreader-inline-border-bottom=""
-                          data-darkreader-inline-border-left=""
-                          ><lt-div
-                            class="lt-mirror__canvas"
-                            style="
-                              margin-top: 0px !important;
-                              margin-left: 0px !important;
-                              width: 532px !important;
-                              height: 24px !important;
-                            "
-                          ></lt-div></lt-div
-                        ><lt-div
-                          class="lt-mirror__measurer"
-                        ></lt-div></lt-mirror
-                      ><textarea
+                  <div class="input-container">
+                    <div class="search-input">
+                      <textarea
                         id="prompt-textarea"
-                        tabindex="0"
-                        data-id="root"
                         rows="1"
                         placeholder="Message ChatGPT…"
-                        class="m-0 w-full resize-none border-0 bg-transparent focus:ring-0 focus-visible:ring-0 dark:bg-transparent py-[10px] pr-10 md:py-3.5 md:pr-12 max-h-[25dvh] max-h-52 placeholder-black/50 dark:placeholder-white/50 pl-10 md:pl-[55px]"
-                        style="height: 52px; overflow-y: hidden"
-                        data-lt-tmp-id="lt-771705"
-                        spellcheck="false"
-                        data-gramm="false"
+                        class=" "
                       ></textarea>
-                      <div
-                        type="button"
-                        aria-haspopup="dialog"
-                        aria-expanded="false"
-                        aria-controls="radix-:rfi:"
-                        data-state="closed"
-                        class="absolute bottom-2 md:bottom-3 left-2 md:left-4"
-                      >
+                      <div type="button" class="textarea-container">
                         <div class="flex">
-                          <button
-                            class="btn relative p-0 text-black dark:text-white"
-                            aria-label="Attach files"
-                          >
-                            <div
-                              class="flex w-full gap-2 items-center justify-center"
-                            >
+                          <button class="file-btn">
+                            <div>
                               <svg
                                 width="24"
                                 height="24"
@@ -928,8 +1452,9 @@
                                   data-darkreader-inline-fill=""
                                 ></path>
                               </svg>
-                            </div></button
-                          ><input
+                            </div>
+                          </button>
+                          <input
                             multiple=""
                             type="file"
                             style="display: none"
@@ -938,11 +1463,7 @@
                           />
                         </div>
                       </div>
-                      <button
-                        disabled=""
-                        class="absolute bottom-1.5 right-2 rounded-lg border border-black bg-black p-0.5 text-white transition-colors enabled:bg-black disabled:text-gray-400 disabled:opacity-10 dark:border-white dark:bg-white dark:hover:bg-white md:bottom-3 md:right-3"
-                        data-testid="send-button"
-                      >
+                      <button class="submit-btn">
                         <span class="" data-state="closed"
                           ><svg
                             width="24"
@@ -968,13 +1489,9 @@
                   <!-- Input End -->
                 </div>
               </form>
-              <div
-                class="relative px-2 py-2 text-center text-xs text-token-text-secondary md:px-[60px]"
-              >
-                <span
-                  >ChatGPT can make mistakes. Consider checking important
-                  information.</span
-                >
+              <div class="note">
+                ChatGPT can make mistakes. Consider checking important
+                information.
               </div>
             </div>
           </div>
