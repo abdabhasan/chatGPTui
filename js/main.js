@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const newChatPopup = document.querySelector(".new-chat-popup");
   const dallNewChat = document.querySelector(".dall-e-new-icon");
   const logoCreatorNewChat = document.querySelector(".logo-creator-new-icon");
+  const userPopupToggleBtn = document.querySelector(".user-container-btn");
+  const userPopup = document.querySelector(".user-container-popup");
 
   function updateButtonState() {
     if (sidebar.classList.contains("open")) {
@@ -72,6 +74,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   logoCreatorNewChat.addEventListener("mouseleave", function () {
     newChatPopup.style.display = "none";
+  });
+
+  userPopupToggleBtn.addEventListener("click", function () {
+    if (userPopup.style.display === "none" || userPopup.style.display === "") {
+      userPopup.style.display = "block";
+      userPopupToggleBtn.style.backgroundColor = "#212121";
+    } else {
+      userPopup.style.display = "none";
+      userPopupToggleBtn.style.backgroundColor = "#171717";
+    }
   });
 
   updateButtonState();
